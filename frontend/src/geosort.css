@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    padding: 12px 20px;
+    border: 1px solid #373737;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.container button:hover {
+    cursor: pointer;
+    background-color: #ededed;
+    transition: 0.2s;
+}
